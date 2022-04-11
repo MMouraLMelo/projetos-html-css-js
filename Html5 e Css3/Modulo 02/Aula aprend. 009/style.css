@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+header{
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    background-color: rgb(207, 181, 150);
+    padding: 3px;
+}
+nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    margin-right: 50px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+}
+section{
+    background-color: rgb(207, 181, 150);
+    padding: 2px;
+    text-align: right;
+}
+article{
+    background-color: beige;
+    text-align: justify;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(207, 181, 150);
+}
+footer{
+    background-color: rgb(207, 181, 150);
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+}
