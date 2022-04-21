@@ -4,12 +4,36 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 
+tbody > tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: white;
+}
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: underline;
+    border: 1px solid black;
+}
+
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 thead{
-    background-color: lightgray;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(56, 55, 55);
 }
 td, th{
     border: 1px solid black;
@@ -21,5 +45,6 @@ td.num{
     text-align: right;
 }
 tfoot{
-    background-color: lightgray;
+    background-color: rgb(56, 55, 55);
+    color: white;
 }
