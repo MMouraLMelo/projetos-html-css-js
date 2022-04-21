@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+caption{
+    border: 1px solid black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+thead{
+    background-color: lightgray;
+}
+tbody > tr > th{
+    background-color: lightgray;
+}
+tbody > tr:nth-child(even){
+    background-color: lightgray;
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
