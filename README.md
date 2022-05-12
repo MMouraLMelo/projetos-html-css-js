@@ -1,7 +1,7 @@
 # Projetos
  Projetos para Aprendizagem
 
-Repositório para projetos de apredizagem de diversas línguas.
+Repositório para apredizagem de HTML5, CSS3 e JavaScript.
 
 Alguns Projetos:
 <ul>
